@@ -1,0 +1,8 @@
+package com.pages;
+
+import com.Setup.TestBase;
+
+public class CartPage extends TestBase
+{
+
+}

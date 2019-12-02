@@ -156,3 +156,48 @@ PASSED: Scooter2
 PASSED: Sedan1
 
 this is also termed as batch exection.
+
+
+Dependent Test
+Sometimes, you may need to invoke methods in a Test case in a particular order or you want to share some data and state between methods. This kind of dependency is supported by TestNG as it supports the declaration of explicit dependencies between test methods.
+
+TestNG allows you to specify dependencies either with:
+
+Using attributes dependsOnMethods in @Test annotations OR
+Using attributes dependsOnGroups in @Test annotations.
+
+public class Dependent {
+ 
+  @Test (dependsOnMethods = { "OpenBrowser" })
+ 
+  public void SignIn() {
+ 
+   System.out.println("This will execute second (SignIn)");
+ 
+  }
+ 
+  @Test
+ 
+  public void OpenBrowser() {
+ 
+   System.out.println("This will execute first (Open Browser)");
+ 
+  }
+ 
+  @Test (dependsOnMethods = { "SignIn" })
+ 
+  public void LogOut() {
+ 
+   System.out.println("This will execute third (Log Out)");
+ 
+  }
+  
+  invocationCount, The number of times this method should be invoked. invocationTimeOut, The maximum number of milliseconds this test should take for the .
+  
+   @Test(invocationCount = 5, threadPoolSize = 2)
+    public void test1(){
+        int count= sequence.addAndGet(1);
+        System.out.println("Test Run Number  "+
+                count + " run by Thread  " + Thread.currentThread().getId());
+    }
+    

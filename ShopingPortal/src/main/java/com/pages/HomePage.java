@@ -3,6 +3,7 @@ package com.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.Setup.TestBase;
 
@@ -13,6 +14,9 @@ public class HomePage extends TestBase
 	
 	@FindBy(xpath="//*[@id='block_top_menu']/ul/li[1]/ul/li[2]/ul/li[1]/a")
 	WebElement women_dress;
+	
+	@FindBy(xpath="//*[@id='cmsinfo_block']/div[2]/p[2]")
+	WebElement custom_info_block;
 	
 	public HomePage() 
 	{
@@ -29,5 +33,10 @@ public class HomePage extends TestBase
 		selectItemFromMenu(women, women_dress); 
 		return new ProductPage();
 	}
- 
+    
+	public void verifyMessage(String message)
+	{
+		scrollToelement(custom_info_block);
+		Assert.assertEquals(custom_info_block.getText(), message);
+	}
 }

@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="when_we_hover_women_we_should_be_able_to_select_dress"/>
+          <include name="verifythemessageofCustomBlock"/>
         </methods>
       </class> <!-- com.smokesuite.HomePageTest -->
     </classes>

@@ -1,0 +1,7 @@
+<suite name="shopingPortalTest">
+ <test name="testngsmokeTest">
+ <classes>
+ <class name="com.smokesuite.HomePageTest" />
+ </classes>
+ </test>
+</suite>

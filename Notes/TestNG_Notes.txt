@@ -92,3 +92,67 @@ logout from google @aftermethod
 close the browser after each TC @afterclass
 deleted all cookies //@aftertest
 
+
+When you are done with execution notice that a test-output folder is generated which will contain test report in html format
+test-output/index.html 
+
+
+Test Case Grouping
+‘Groups‘ is one more annotation of TestNG which can be used in the execution of multiple tests. Let’s say you have hundred tests of class vehicle and in it ten method of car, ten method of scooter and so on. You probably like to run all the scooter tests together in a batch. And you want all to be in a single test suite. With the help of grouping you can easily overcome this situation.
+
+public class Grouping {
+ 
+  @Test (groups = { "Car" })
+ 
+  public void Car1() {
+ 
+   System.out.println("Batch Car - Test car 1");
+ 
+  }
+ 
+  @Test (groups = { "Car" })
+ 
+  public void Car2() {
+ 
+   System.out.println("Batch Car - Test car 2");
+ 
+  }
+ 
+  @Test (groups = { "Scooter" })
+ 
+  public void Scooter1() {
+ 
+   System.out.println("Batch Scooter - Test scooter 1");
+ 
+  }
+ 
+  @Test (groups = { "Scooter" })
+ 
+  public void Scooter2() {
+ 
+   System.out.println("Batch Scooter - Test scooter 2");
+ 
+  }
+ 
+  @Test (groups = { "Car", "Sedan Car" })
+ 
+  public void Sedan1() {
+ 
+   System.out.println("Batch Sedan Car - Test sedan 1");
+ 
+  }
+ 
+ O/p will be
+ 
+ Batch Car - Test car 1
+Batch Car - Test car 2
+Batch Scooter - Test scooter 1
+Batch Scooter - Test scooter 2
+Batch Sedan Car - Test sedan 1
+PASSED: Car1
+PASSED: Car2
+PASSED: Scooter1
+PASSED: Scooter2
+PASSED: Sedan1
+
+this is also termed as batch exection.

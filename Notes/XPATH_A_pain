@@ -1,0 +1,18 @@
+Site used
+
+https://www.instagram.com/
+
+//input[@name='fullName']
+
+//button[@type='submit']
+
+//a[text()='Log in'] -for  linking tags
+
+--- same with contains
+//a[contains(text(),'Log in')]
+
+flipkart.com
+
+//button/span[text()='Login']
+
+//span[contains(text(),'Enter Email/Mobile number')]

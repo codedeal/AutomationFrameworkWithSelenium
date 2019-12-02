@@ -1,1 +1,94 @@
-abc
+TestNG - unit testing framework also used by test automation engineers
+
+purpose of TestNG - is to desing Test Cases
+
+features of TestNG
+
+  ---> generate html reports
+  ---> different annotation
+  ---> priorities your TC
+  ---> make dependency b/w your Test Cases
+  ---> data Provider for your Test Cases
+  
+  
+  Install testng in eclipse
+  http://beust.com/eclipse/
+  
+  public class AnnotationPriorities 
+{
+	//pre condition --- starts wih Before or steps to take prior to exection of each test case
+   @BeforeSuite //1 ...
+   public void SuiteSetup()
+   {
+	   System.out.println("Suite SetUP");
+   }
+   
+   @BeforeTest //2 ..
+   public void launchBrowser()
+   {
+	   System.out.println("We launch browser");
+   }
+   @BeforeClass //3..
+   public void login()
+   {
+	   System.out.println("login to the app");
+   }
+   
+   @BeforeMethod //4..
+   public void enterURL()
+   {
+	   System.out.println("enter the url");
+   }
+   
+   @Test // 5..
+   public void googleTest()
+   {
+	   System.out.println("test something on the google");
+	   
+   }
+   
+   @Test // 5..
+   public void googlesearchTest()
+   {
+	   System.out.println("search something on the google");
+	   
+   }
+   @AfterMethod
+   public void logout()
+   {
+	   System.out.println("logout from google");
+	   
+   }
+   @AfterTest
+   public  void deleteAllCookies()
+   {
+	   System.out.println("deleted all cookies");
+   }
+   
+   @AfterClass
+   public void closeBrowser()
+   {
+	   System.out.println("close the browser after each TC");
+   }
+   
+   @AfterSuite
+   public void generateTestReport()
+   {
+	   System.out.println("generate test report");
+   }
+   
+   
+   O/p observe it
+   
+ Suite SetUP  -@beforesuitesetup
+We launch browser  @beforetest
+login to the app @beforeclass
+enter the url @beforemethod
+test something on the google // TC
+logout from google @aftermethod
+enter the url @beforemethod
+search something on the google . //TC
+logout from google @aftermethod
+close the browser after each TC @afterclass
+deleted all cookies //@aftertest
+

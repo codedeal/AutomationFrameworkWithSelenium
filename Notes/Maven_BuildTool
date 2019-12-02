@@ -37,3 +37,18 @@ example
     1. Maven Compile - compile all code and classes -> done by Maven compiler plugin
     2. Maven Test -> run your unit tc, integration tc, functional tc -> done by Maven Surfire Plugin
     3. Maven Resource -jar -> responsible for creation of resources - jar/war/ear -> done by Maven Resource Plugin
+
+
+Building a Maven Project
+To build a Maven project, we need to execute one of the life cycles by running one of their phases:
+
+
+mvn deploy
+This will execute the entire default lifecycle. Alternatively, we can stop at the install phase:
+
+
+mvn install
+But usually we'll use the command:
+
+
+mvn clean install

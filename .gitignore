@@ -4,6 +4,18 @@
 *.exe
 *.o
 *.so
+#eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
 # Packages #
 ############

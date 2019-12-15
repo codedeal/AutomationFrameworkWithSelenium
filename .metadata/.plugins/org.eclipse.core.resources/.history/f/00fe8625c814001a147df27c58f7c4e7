@@ -1,7 +1,0 @@
-<suite name="shopingPortalTest">
- <test name="testngsmokeTest">
- <classes>
- <class name="softwareTestingMaterial.STMTestNGClass" />
- </classes>
- </test>
-</suite>

@@ -1,0 +1,68 @@
+2019-12-14 18:05:16 INFO  GroupingofTC:24 - do something
+2019-12-14 18:05:16 INFO  GroupingofTC:32 - do something
+2019-12-14 18:05:16 INFO  GroupingofTC:40 - do something
+2019-12-14 18:22:08 INFO  GroupingofTC:24 - Batch Car - Test car 1
+2019-12-14 18:22:08 INFO  GroupingofTC:32 - Batch Car - Test car 2
+2019-12-14 18:22:08 INFO  GroupingofTC:40 - Batch Scooter - Test scooter 1
+2019-12-14 18:22:08 INFO  GroupingofTC:49 - Batch Scooter - Test scooter 2
+2019-12-14 18:22:08 INFO  GroupingofTC:57 - Batch Sedan Car - Test sedan 1
+2019-12-14 18:31:08 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 18:31:08 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 18:31:08 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 18:31:08 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 18:31:08 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 19:54:03 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 19:54:03 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 19:54:03 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 19:54:03 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 19:54:03 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 19:54:25 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 19:54:25 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 19:54:25 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 19:54:25 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 19:54:25 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 19:56:34 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 19:56:34 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 19:56:34 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 19:56:34 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 19:56:34 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 19:57:19 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 19:57:19 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 19:57:19 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 19:57:19 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 19:57:19 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 20:07:27 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 20:07:27 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 20:07:27 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 20:07:27 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 20:07:27 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 20:09:29 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 20:09:29 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 20:09:29 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 20:09:29 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 20:09:29 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 20:10:28 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 20:10:28 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 20:10:28 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 20:10:28 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 20:10:28 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-14 20:11:36 INFO  Log:23 - Batch Car - Test car 1
+2019-12-14 20:11:36 INFO  Log:23 - Batch Car - Test car 2
+2019-12-14 20:11:36 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-14 20:11:36 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-14 20:11:36 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-15 05:11:41 INFO  Log:23 - Batch Car - Test car 1
+2019-12-15 05:11:41 INFO  Log:23 - Batch Car - Test car 2
+2019-12-15 05:11:41 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-15 05:11:41 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-15 05:11:41 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-15 05:11:58 INFO  Log:23 - Batch Car - Test car 1
+2019-12-15 05:11:58 INFO  Log:23 - Batch Car - Test car 2
+2019-12-15 05:11:58 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-15 05:11:58 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-15 05:11:58 INFO  Log:23 - Batch Sedan Car - Test sedan 1
+2019-12-15 05:21:30 INFO  Log:23 - Batch Car - Test car 1
+2019-12-15 05:21:30 INFO  Log:23 - Batch Car - Test car 2
+2019-12-15 05:21:30 INFO  Log:23 - Batch Scooter - Test scooter 1
+2019-12-15 05:21:30 INFO  Log:23 - Batch Scooter - Test scooter 2
+2019-12-15 05:21:30 INFO  Log:23 - Batch Sedan Car - Test sedan 1

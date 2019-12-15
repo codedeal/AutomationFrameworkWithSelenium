@@ -5,9 +5,10 @@
     <classes>
       <class name="com.smokesuite.HomePageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="setUp"/>
           <include name="verifythemessageofCustomBlock"/>
+          <include name="when_we_hover_women_we_should_be_able_to_select_dress"/>
         </methods>
       </class> <!-- com.smokesuite.HomePageTest -->
     </classes>

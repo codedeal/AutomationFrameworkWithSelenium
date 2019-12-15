@@ -18,6 +18,9 @@ public class HomePage extends TestBase
 	@FindBy(xpath="//*[@id='cmsinfo_block']/div[2]/p[2]")
 	WebElement custom_info_block;
 	
+	@FindBy(xpath="//a[text()='Printed Dress']")
+	WebElement printed_dress;
+	
 	public HomePage() 
 	{
 		PageFactory.initElements(driver, this);
@@ -38,5 +41,13 @@ public class HomePage extends TestBase
 	{
 		scrollToelement(custom_info_block);
 		Assert.assertEquals(custom_info_block.getText(), message);
+	}
+	
+	public ProductPage selectPintedDress()
+	{
+		if(!printed_dress.isDisplayed())
+			scrollToelement(printed_dress);
+		printed_dress.click();
+		return new ProductPage();
 	}
 }

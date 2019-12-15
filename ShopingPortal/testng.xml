@@ -1,7 +1,11 @@
 <suite name="shopingPortalTest">
+<listeners>  
+<listener class-name="com.listeners.ShopListener"/>  
+</listeners> 
  <test name="testngsmokeTest">
  <classes>
- <class name="com.smokesuite.HomePageTest" />
+ <class name="com.testNGDemo.GroupingofTC"></class>
+<!--  <class name="com.smokesuite.HomePageTest" /> -->
  </classes>
  </test>
 </suite>

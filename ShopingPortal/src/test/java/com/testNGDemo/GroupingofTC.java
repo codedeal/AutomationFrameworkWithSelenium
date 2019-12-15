@@ -1,32 +1,44 @@
 package com.testNGDemo;
 
+
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.logger.Log;
+
 
 public class GroupingofTC 
 {
-
+	
 		 
+	 @BeforeMethod
+	 public void setLogger()
+	 {
+		  
+	 }
 		  @Test (groups = { "Car" })
 		 
 		  public void Car1() {
-		 
-		   System.out.println("Batch Car - Test car 1");
+
+			
+			  Log.info("Batch Car - Test car 1");
+		
 		 
 		  }
 		 
 		  @Test (groups = { "Car" })
 		 
 		  public void Car2() {
-		 
-		   System.out.println("Batch Car - Test car 2");
+			  Log.info("Batch Car - Test car 2");
+		   
 		 
 		  }
 		 
 		  @Test (groups = { "Scooter" })
 		 
 		  public void Scooter1() {
-		 
-		   System.out.println("Batch Scooter - Test scooter 1");
+			  Log.info("Batch Scooter - Test scooter 1");
+		  
 		 
 		  }
 		 
@@ -34,7 +46,7 @@ public class GroupingofTC
 		 
 		  public void Scooter2() {
 		 
-		   System.out.println("Batch Scooter - Test scooter 2");
+			  Log.info("Batch Scooter - Test scooter 2");
 		 
 		  }
 		 
@@ -42,7 +54,7 @@ public class GroupingofTC
 		 
 		  public void Sedan1() {
 		 
-		   System.out.println("Batch Sedan Car - Test sedan 1");
+			  Log.info("Batch Sedan Car - Test sedan 1");
 		 
 		  }
 		 

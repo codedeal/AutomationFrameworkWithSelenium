@@ -1,49 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="shopingPortalTest" duration-ms="26921" started-at="2019-12-02T05:54:13Z" finished-at="2019-12-02T05:54:40Z">
+  <suite name="shopingPortalTest" duration-ms="40" started-at="2019-12-14T23:51:30Z" finished-at="2019-12-14T23:51:30Z">
     <groups>
+      <group name="Scooter">
+        <method signature="GroupingofTC.Scooter1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Scooter1" class="com.testNGDemo.GroupingofTC"/>
+        <method signature="GroupingofTC.Scooter2()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Scooter2" class="com.testNGDemo.GroupingofTC"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="GroupingofTC.Car1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Car1" class="com.testNGDemo.GroupingofTC"/>
+        <method signature="GroupingofTC.Car2()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Car2" class="com.testNGDemo.GroupingofTC"/>
+        <method signature="GroupingofTC.Sedan1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Sedan1" class="com.testNGDemo.GroupingofTC"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="GroupingofTC.Sedan1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Sedan1" class="com.testNGDemo.GroupingofTC"/>
+      </group> <!-- Sedan Car -->
     </groups>
-    <test name="testngsmokeTest" duration-ms="26921" started-at="2019-12-02T05:54:13Z" finished-at="2019-12-02T05:54:40Z">
-      <class name="com.smokesuite.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="setUp" is-config="true" duration-ms="9314" started-at="2019-12-02T11:24:13Z" finished-at="2019-12-02T11:24:23Z">
+    <test name="testngsmokeTest" duration-ms="40" started-at="2019-12-14T23:51:30Z" finished-at="2019-12-14T23:51:30Z">
+      <class name="com.testNGDemo.GroupingofTC">
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="setLogger" is-config="true" duration-ms="4" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifythemessageofCustomBlock()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="verifythemessageofCustomBlock" duration-ms="561" started-at="2019-12-02T11:24:23Z" finished-at="2019-12-02T11:24:23Z">
+        </test-method> <!-- setLogger -->
+        <test-method status="PASS" signature="Car1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Car1" duration-ms="9" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifythemessageofCustomBlock -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="tearDown" is-config="true" duration-ms="96" started-at="2019-12-02T11:24:23Z" finished-at="2019-12-02T11:24:23Z">
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="setLogger" is-config="true" duration-ms="0" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="setUp" is-config="true" duration-ms="7117" started-at="2019-12-02T11:24:23Z" finished-at="2019-12-02T11:24:30Z">
+        </test-method> <!-- setLogger -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Car2" duration-ms="2" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="when_we_hover_women_we_should_be_able_to_select_dress()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="when_we_hover_women_we_should_be_able_to_select_dress" duration-ms="2522" started-at="2019-12-02T11:24:30Z" finished-at="2019-12-02T11:24:33Z">
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="setLogger" is-config="true" duration-ms="0" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- when_we_hover_women_we_should_be_able_to_select_dress -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="tearDown" is-config="true" duration-ms="100" started-at="2019-12-02T11:24:33Z" finished-at="2019-12-02T11:24:33Z">
+        </test-method> <!-- setLogger -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Scooter1" duration-ms="1" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="setUp" is-config="true" duration-ms="7102" started-at="2019-12-02T11:24:33Z" finished-at="2019-12-02T11:24:40Z">
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Scooter2" duration-ms="2" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="verifyHomePageTitleTest" duration-ms="7" started-at="2019-12-02T11:24:40Z" finished-at="2019-12-02T11:24:40Z">
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="setLogger" is-config="true" duration-ms="0" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smokesuite.HomePageTest@4520ebad]" name="tearDown" is-config="true" duration-ms="88" started-at="2019-12-02T11:24:40Z" finished-at="2019-12-02T11:24:40Z">
+        </test-method> <!-- setLogger -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="Sedan1" duration-ms="1" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.smokesuite.HomePageTest -->
+        </test-method> <!-- Sedan1 -->
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:com.testNGDemo.GroupingofTC@43d7741f]" name="setLogger" is-config="true" duration-ms="0" started-at="2019-12-15T05:21:30Z" finished-at="2019-12-15T05:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLogger -->
+      </class> <!-- com.testNGDemo.GroupingofTC -->
     </test> <!-- testngsmokeTest -->
   </suite> <!-- shopingPortalTest -->
 </testng-results>

@@ -1,8 +1,0 @@
-package com.pages;
-
-import com.Setup.TestBase;
-
-public class HomePage extends TestBase
-{
-
-}
